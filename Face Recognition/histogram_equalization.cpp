@@ -8,12 +8,12 @@
 
 void get_histogram_equalized_images( char a[], char b[])
 {			 	
-	unsigned char		image [IM_SZ + 10];
-	int					F	  [256   + 10];
-	int					CuF	  [256   + 10];
-	int				    Feq	  [256   + 10];
-	int					CuFeq [256   + 10];
-	unsigned char		II	  [256   + 10];
+	unsigned char		image[IM_SZ + 10];
+	int			F    [256 + 10];
+	int			CuF  [256 + 10];
+	int			Feq  [256 + 10];
+	int			CuFeq[256 + 10];
+	unsigned char		II   [256 + 10];
 
 /*	
 	memset( F,     0, sizeof( F ) );
